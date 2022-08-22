@@ -7,5 +7,15 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "todo": "Belajar"
+  "todo": "NodeJS"
+}
+
+###
+PUT http://localhost:3000
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 4,
+  "todo": "Ujang"
 }
